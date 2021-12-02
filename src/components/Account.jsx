@@ -9,18 +9,14 @@ import { SelectOutlined } from "@ant-design/icons";
 import { getExplorer } from "helpers/networks";
 const styles = {
   account: {
-    height: "42px",
     padding: "0 15px",
     display: "flex",
-    justifyContent: "center",
     alignItems: "center",
-    width: "fit-content",
-    borderRadius: "12px",
-    backgroundColor: "rgb(244, 244, 244)",
+    backgroundColor: "transparent",
     cursor: "pointer",
   },
   text: {
-    color: "#21BF96",
+    color: "#9a9a8e",
   },
 };
 

@@ -9,6 +9,7 @@ const styles = {
   table: {
     margin: "0 auto",
     width: "1000px",
+    background: "transparent",
   },
 };
 

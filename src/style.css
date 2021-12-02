@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
+
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
@@ -6,15 +9,85 @@
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
-  border-bottom: 2px solid #21bf96 !important;
+  border-bottom: 2px solid transparent !important;
 }
 
 .ant-menu-horizontal > .ant-menu-item-selected a,
 .ant-menu-horizontal > .ant-menu-item a:hover {
-  color: #21bf96 !important;
+  color: #eee !important;
 }
 
 .ant-modal-content {
   overflow: auto;
   border-radius: 1rem;
+}
+
+.ant-layout {
+  background-color: #111;
+}
+.ant-layout-footer {
+  background-color: #111;
+  color: #fff;
+  min-height: 20vh;
+  margin-top: 200px;
+}
+.ant-layout-footer span {
+  color: #fff;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent;
+}
+.ant-menu-item-selected a {
+  background: transparent;
+}
+
+/* transaction table */
+
+.ant-table {
+  background: transparent;
+  color: white;
+}
+.ant-spin-container::after {
+  background: transparent;
+}
+
+/* header */
+
+.logo-skylandia {
+  width: 155px;
+  margin-left: 20px;
+}
+.logo-skylandia img {
+  width: 100%;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.hero-banner__content {
+  position: absolute;
+}
+.hero-headline {
+  color: #fff;
+
+  font-size: 95px;
+  line-height: 1;
+  font-family: "Bungee", cursive;
+  max-width: 600px;
+  text-align: left;
+}
+.button-white-header {
+  font-size: 20px;
+  background: white;
+  border-radius: 50px;
+  display: inline-flex;
+  color: #111;
+  text-align: center;
+  padding: 20px 30px;
+  margin-top: 20px;
+  justify-content: center;
 }
