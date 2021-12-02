@@ -47,7 +47,7 @@ const styles = {
   },
   headerRight: {
     display: "flex",
-    gap: "20px",
+    gap: "21px",
     alignItems: "center",
     fontSize: "15px",
     fontWeight: "400",
